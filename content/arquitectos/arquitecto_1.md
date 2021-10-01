@@ -6,7 +6,7 @@ birth_year: 1920
 fields:
   - Arquitectura contemporanea
   - Arquitectura moderna
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/EmpireStateBuilding_2007_amk_bw.jpg/375px-EmpireStateBuilding_2007_amk_bw.jpg
+image: /static/images/arquitectos/arq1.jpg
 ---
 <!--StartFragment-->
 
