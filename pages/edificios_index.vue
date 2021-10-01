@@ -17,11 +17,13 @@
    <h3 style="margin-top: 15px">Edificios</h3>
      <p>Esta sección presenta los edificios y sus caracteristicas</p>
 
-     <div class="card" v-for="edificio of edificios" :key="edificio.slug">
-       <div class="card-body">
-         <NuxtLink :to="{ name: 'edificios-slug', params: { slug: edificio.slug } }">{{edificio.title}}</NuxtLink>
-       </div>
-     </div>
+<div class="card" style="width: 18rem;" v-for="edificio of edificios" :key="edificio.slug">
+  <div class="card-body">
+    <h5 class="card-title">{{edificio.title}}</h5>
+    <NuxtLink :to="{ name: 'edificios-slug', params: { slug: edificio.slug } }">Ver edificio</NuxtLink>
+  </div>
+</div>
+
    <!-- <ul>
      <li v-for="edificio of edificios" :key="edificio.slug">
        <NuxtLink :to="{ name: 'edificios-slug', params: { slug: edificio.slug } }">{{edificio.title}}</NuxtLink>
