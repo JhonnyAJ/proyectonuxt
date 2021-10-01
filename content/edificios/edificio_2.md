@@ -5,7 +5,7 @@ founded: 1884
 high: 429 m
 arquitectoId: arquitecto_2
 ciudadId: ciudad_2
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Washington_Monument_Dusk_Jan_2006.jpg/375px-Washington_Monument_Dusk_Jan_2006.jpg
+image: /static/images/edificios/monumento-was.jpg
 ---
 <!--StartFragment-->
 
