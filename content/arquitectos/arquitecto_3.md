@@ -6,7 +6,7 @@ birth_year: 1935
 fields:
   - Arquitectura abstracta
   - Arquitectura moderna
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Banco_Nacional_de_Costa_Rica_-_panoramio.jpg/420px-Banco_Nacional_de_Costa_Rica_-_panoramio.jpg
+image: /static/images/arquitectos/arq3.jpg
 ---
 <!--StartFragment-->
 
