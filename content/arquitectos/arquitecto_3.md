@@ -1,16 +1,15 @@
 ---
 id: arquitecto_3
-name: Pedro Ramirez
-nationality: Israelis / American
-birth_year: 1952
+name: "Guillermo Madriz de Merzerville "
+nationality: Costarricense
+birth_year: 1935
 fields:
   - Arquitectura abstracta
   - Arquitectura moderna
-image: authors/author_3.jpg
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Banco_Nacional_de_Costa_Rica_-_panoramio.jpg/420px-Banco_Nacional_de_Costa_Rica_-_panoramio.jpg
 ---
+<!--StartFragment-->
 
-Alfred Vaino Aho (born August 9, 1941) is a Canadian computer scientist best known for his work on programming languages, compilers, and related algorithms, and his textbooks on the art and science of computer programming.
+El edificio **Banco Nacional de Costa Rica** es un edificio histórico ubicado entre Avenida 3 y Calle 4, de San José, Costa Rica. Es la sede central del Banco Nacional de Costa Rica. Se inauguró en 1982. Este edificio se convirtió en su inauguración en el edificio más alto de Costa Rica y se mantuvo así hasta 2012, cuando se inauguró el edificio Torre Paseo Colón 1
 
-Aho was elected into the National Academy of Engineering in 1999 for his contributions to the fields of algorithms and programming tools.
-
-He and his long-time collaborator Jeffrey Ullman are the recipients of the 2020 Turing Award, generally recognized as the highest distinction in computer science
+<!--EndFragment-->
