@@ -15,7 +15,7 @@
 
    <HeaderView />
    <h3 style="margin-top: 15px">Ciudades</h3>
-     <p>Investiga sobre las ciudades que albergan estos edificiosaaaaaaaaaaaaa</p>
+     <p>Investiga sobre las ciudades que albergan estos edificios</p>
 
 <div class="row">
 <div class="card" style="width: 18rem; margin: 10px" v-for="ciudad of ciudades" :key="ciudad.slug">
