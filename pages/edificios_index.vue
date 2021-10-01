@@ -16,12 +16,13 @@
    <HeaderView />
    <h3 style="margin-top: 15px">Edificios</h3>
      <p>Esta sección presenta los edificios y sus caracteristicas</p>
-
+<div class="row">
 <div class="card" style="width: 18rem;" v-for="edificio of edificios" :key="edificio.slug">
   <div class="card-body">
     <h5 class="card-title">{{edificio.title}}</h5>
     <NuxtLink :to="{ name: 'edificios-slug', params: { slug: edificio.slug } }">Ver edificio</NuxtLink>
   </div>
+</div>
 </div>
 
    <!-- <ul>
