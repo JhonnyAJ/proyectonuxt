@@ -5,7 +5,10 @@ founded: 2012
 high: 50 metros
 arquitectoId: arquitecto_1
 ciudadId: ciudad_1
-image: books/book_1.jpg
+image: /static/images/edificios/empire.jpg
 ---
+<!--StartFragment-->
 
-Operating System Concepts, now in its ninth edition, continues to provide a solid theoretical foundation for understanding operating systems. The ninth edition has been thoroughly updated to include contemporary examples of how operating systems function. The text includes content to bridge the gap between concepts and actual implementations. End-of-chapter problems, exercises, review questions, and programming exercises help to further reinforce important concepts.  A new Virtual Machine provides interactive exercises to help engage students with the material.
+El Empire State Building es un rascacielos situado en la intersección de la Quinta Avenida y West 34th Street, en la ciudad de Nueva York, Estados Unidos. Su nombre deriva del apodo del Estado de Nueva York.
+
+<!--EndFragment-->
