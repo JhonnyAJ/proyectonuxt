@@ -12,13 +12,18 @@
 <template>
   <div class="container">
    <HeaderView />
-   <h3 style="margin-top: 15px">Architect Information</h3>
-     <p>This section presents information about architects</p>
-   <ul>
-     <li v-for="arquitecto of arquitectos" :key="arquitecto.slug">
-       <NuxtLink :to="{ name: 'arquitectos-slug', params: { slug: arquitecto.slug } }">{{arquitecto.name}}</NuxtLink>
-     </li>
-   </ul>
+   <h3 style="margin-top: 15px">Arquitectos</h3>
+     <p>Investiga acerca de los arquitectos y constructoras que diseñan estos edificios</p>
+
+<div class="row">
+<div class="card" style="width: 18rem; margin: 10px" v-for="arquitecto of arquitectos" :key="arquitecto.slug">
+  <div class="card-body">
+    <h5 class="card-title">{{arquitecto.name}}</h5>
+    <NuxtLink :to="{ name: 'arquitectos-slug', params: { slug: arquitecto.slug } }">Ver mas...</NuxtLink>
+  </div>
+</div>
+</div>
+
    <FooterView />
  </div>
 </template>
