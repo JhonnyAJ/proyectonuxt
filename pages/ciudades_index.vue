@@ -20,7 +20,7 @@
 <div class="row">
 <div class="card" style="width: 18rem; margin: 10px" v-for="ciudad of ciudades" :key="ciudad.slug">
   <div class="card-body">
-    <h5 class="card-title">{{ciudad.name}}</h5>
+    <h4 class="card-title"><b>{{ciudad.name}}</b></h4>
     <NuxtLink :to="{ name: 'ciudades-slug', params: { slug: ciudad.slug } }">Ver informacion</NuxtLink>
   </div>
 </div>

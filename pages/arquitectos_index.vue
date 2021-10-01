@@ -20,7 +20,7 @@
 <div class="row">
 <div class="card" style="width: 18rem; margin: 10px" v-for="arquitecto of arquitectos" :key="arquitecto.slug">
   <div class="card-body">
-    <h5 class="card-title">{{arquitecto.name}}</h5>
+    <h4 class="card-title"><b>{{arquitecto.name}}</b></h4>
     <NuxtLink :to="{ name: 'arquitectos-slug', params: { slug: arquitecto.slug } }">Ver mas...</NuxtLink>
   </div>
 </div>
